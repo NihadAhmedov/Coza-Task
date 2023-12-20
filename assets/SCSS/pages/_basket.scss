@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    .newBoxBasket{
+        margin-top: 25px;
+        .myDivBasket{
+            border: 2px solid black;
+            border-radius: 15px;
+            background-color: gray;
+            img{
+                width: 100%;
+                height: auto;
+                border-top-right-radius: 15px;
+                border-top-left-radius: 15px;
+                margin-bottom: 15px;
+            }
+            button{
+                padding: 10px;
+                border: 0;
+                background-color: red;
+                color: white;
+                border-radius: 15px;
+                margin-bottom: 15px;
+                margin-left: 15px;
+            }
+            p, h5{
+                text-align: center;
+            }
+        }
+    }
+}
